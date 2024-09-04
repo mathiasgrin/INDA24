@@ -1,6 +1,6 @@
 # **Övning 1 - Välkomna!**
 
-![image](imgs/welcome.jpg)
+[![alt text](https://t4.ftcdn.net/jpg/03/41/47/73/360_F_341477352_FPoRvWnWWqdzVFnIWn3on34gYWaSEX2K.jpg)](link_url)
 
 
 ### **Presentationsrunda**
@@ -62,8 +62,6 @@
 * Jag rättar igen
 
 <br>
-
-![image](imgs/coach.png)
 
 <br>
 
