@@ -1,4 +1,4 @@
-# **Övning DD1337 Programmering - Övning 2**
+i# **Övning DD1337 Programmering - Övning 2**
 Mathias Grindsäter (grin@kth.se)
 
 ## 💬**Idag**
@@ -46,7 +46,7 @@ på de metoder du skapat.
 sedan 'cd' för att förflytta dig dit.
 2) Skriv 'pwd' och se att du är rätt. Skriv gärna också 'whoami'...
 3) Skapa några textfiler, t.ex. 'test1.txt', 'test2.txt' osv mha. 'touch'.
-Ett tips är att använda 'man' följt av det kommando du vill kolla upp för
+Ett tips är att använda `man` följt av det kommando du vill kolla upp för
 att se hur det kan användas. Använd sedan kommandot 'open' för att öppna var fil
 för sig, skriv några meningar i varje textfil.
 
