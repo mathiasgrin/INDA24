@@ -1,4 +1,4 @@
-i# **Övning DD1337 Programmering - Övning 2**
+**Övning DD1337 Programmering - Övning 2**
 Mathias Grindsäter (grin@kth.se)
 
 ## 💬**Idag**
@@ -6,6 +6,23 @@ Mathias Grindsäter (grin@kth.se)
 * Presentera era lösningar
 * RAST
 * Övningar
+
+
+## 💬**Viktiga punkter från task 1**
+
+### Finn två fel (förutom att koden är okommenterad)
+```java
+
+public int sum(int a, int b) {
+    return a+b;
+
+
+
+
+}
+
+
+```
 
 
 ## 💬**DD1337 Lösningar**
@@ -85,9 +102,18 @@ Vi kan skapa en fil som bara innehåller efternamnen som:
 
 Hur skulle du skapa motsvarande fil för förnamnen?
 
+#### Piping
+Låt oss nu säga att vi vill igen vill skapa en fil med alla efternamn, 
+men denna gång vill vi att den skapade filen ska ha efternamnen i
+sorterad ordning.
 
+Vi kan då göra såhär:
+`awk `{print $2}` names.txt | sort > surnames_sorted.txt`
 
+`|` kallas för `pipe` och "fångar in" det som hade hamnat i stdout 
+på vänster sida så att vi kan använda denna output till ett annat
+kommando, här `sort`.
 
-
-
-   
+#### Att radera
+Ta nu bort alla filer med kommandot `rm`.
+Ta slutligen bort ditt directory med `rmdir`.
