@@ -42,17 +42,17 @@ på de metoder du skapat.
 ### 3. Bash
 
 #### Skapa directory och filer
-1) Skapa ett nytt directory 'test' för den här övningen med 'mkdir', använd 
-sedan 'cd' för att förflytta dig dit.
-2) Skriv 'pwd' och se att du är rätt. Skriv gärna också 'whoami'...
-3) Skapa några textfiler, t.ex. 'test1.txt', 'test2.txt' osv mha. 'touch'.
+1) Skapa ett nytt directory `test` för den här övningen med `mkdir`, använd 
+sedan `cd` för att förflytta dig dit.
+2) Skriv `pwd` och se att du är rätt. Skriv gärna också `whoami`...
+3) Skapa några textfiler, t.ex. `test1.txt`, `test2.txt` osv mha. `touch`.
 Ett tips är att använda `man` följt av det kommando du vill kolla upp för
-att se hur det kan användas. Använd sedan kommandot 'open' för att öppna var fil
+att se hur det kan användas. Använd sedan kommandot `open` för att öppna var fil
 för sig, skriv några meningar i varje textfil.
 
 #### Lista filer
-Lista nu dina skapade textfiler med 'ls'. Titta gärna igenom manualen för
-eventuella flaggor. Exempelvis kan man använda 'a', 'l' och 't'. 
+Lista nu dina skapade textfiler med `ls`. Titta gärna igenom manualen för
+eventuella flaggor. Exempelvis kan man använda `a`, `l` och `t`. 
 Vad gör dem?
 
 #### Läs innehållet
@@ -60,18 +60,18 @@ Om vi vill skriva innehållet i en fil till stdout kan vi använda cat.
 Vi kan också använda less för att läsa våra textfiler.
 
 #### Hur vi söker
-'find' används för att hitta filer. Använd manualen för att se hur 
+`find` används för att hitta filer. Använd manualen för att se hur 
 kommandot används, testa sedan att söka efter alla filer som slutar
-med extension '.txt' i ditt skapade directory. Ett tips är att söka 
-efter strängen '*.txt'. '*' säger att det får stå vad som helst innan 
-'txt'. Glöm inte att ange path. Hittar du dina skapade filer?
+med extension `.txt` i ditt skapade directory. Ett tips är att söka 
+efter strängen `*.txt`. `*` säger att det får stå vad som helst innan 
+`txt`. Glöm inte att ange path. Hittar du dina skapade filer?
 
-'grep' används för att söka i filer. Kommer du ihåg något som du skrev
-i din textfil? Sök efter den strängen i din fil, använd 'man' för att
+`grep` används för att söka i filer. Kommer du ihåg något som du skrev
+i din textfil? Sök efter den strängen i din fil, använd `man` för att
 se hur grep används.
 
 #### awk
-Skapa nu en textfil 'names.txt' med följande innehåll:
+Skapa nu en textfil `names.txt` med följande innehåll:
 
 ```java
 John Doe
@@ -81,7 +81,7 @@ Bob Brown
 ```
 
 Vi kan skapa en fil som bara innehåller efternamnen som:
-'awk '{print $2}' names.txt > surnames.txt'
+`awk `{print $2}` names.txt > surnames.txt`
 
 Hur skulle du skapa motsvarande fil för förnamnen?
 
