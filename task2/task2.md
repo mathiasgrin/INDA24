@@ -33,7 +33,6 @@ public int sum(int a, int b) {
 ## **Övningar**
 
 ```java
-
 public class Main {
     public static void main(String[] args) {
         // Define a variable
