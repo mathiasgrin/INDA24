@@ -34,18 +34,17 @@ public int sum(int a, int b) {
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        // Define a variable
+    public static void main(String[] args) {e
         int number = 10;
 
         if (number > 0) {
-            System.out.println("The number is positive.");
+            System.out.println("Positive");
         }
         else if (number == 0) {
-            System.out.println("The number is zero.");
+            System.out.println("Zero");
         }
         else {
-            System.out.println("The number is negative.");
+            System.out.println("Negative");
         }
     }
 }
