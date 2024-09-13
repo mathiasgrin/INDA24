@@ -38,15 +38,12 @@ public class Main {
         // Define a variable
         int number = 10;
 
-        // Check if the number is positive
         if (number > 0) {
             System.out.println("The number is positive.");
         }
-        // Check if the number is zero
         else if (number == 0) {
             System.out.println("The number is zero.");
         }
-        // Check if the number is negative
         else {
             System.out.println("The number is negative.");
         }
