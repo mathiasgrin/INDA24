@@ -98,7 +98,7 @@ Bob Brown
 ```
 
 Vi kan skapa en fil som bara innehåller efternamnen som:
-`awk \`{print $2}\` names.txt > surnames.txt`
+awk \`{print $2}\` names.txt > surnames.txt
 
 Hur skulle du skapa motsvarande fil för förnamnen?
 
