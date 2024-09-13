@@ -34,7 +34,7 @@ public int sum(int a, int b) {
 
 ```java
 public class Main {
-    public static void main(String[] args) {e
+    public static void main(String[] args) {
         int number = 10;
 
         if (number > 0) {
