@@ -108,7 +108,7 @@ men denna gång vill vi att den skapade filen ska ha efternamnen i
 sorterad ordning.
 
 Vi kan då göra såhär:
-`awk `{print $2}` names.txt | sort > surnames_sorted.txt`
+awk \`{print $2}\` names.txt | sort > surnames_sorted.txt
 
 `|` kallas för `pipe` och "fångar in" det som hade hamnat i stdout 
 på vänster sida så att vi kan använda denna output till ett annat
