@@ -146,7 +146,6 @@ public class FindMinMaxInArray {
 
         System.out.println("Largest number: " + largest);
         System.out.println("Smallest number: " + smallest);
-
     }
 }
 
