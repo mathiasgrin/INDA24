@@ -137,7 +137,7 @@ public class FindMinMaxInArray {
 
         int[] arr = {9, 18, 2, 183, 485, -54, 432, 4, 18493, 973};
 
-        // Initialize variables to store the largest and smallest values
+        // Initialisera variabler
         int largest = -1;
         int smallest = Integer.MAX_VALUE;
 
