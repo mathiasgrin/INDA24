@@ -1,22 +1,24 @@
-# **Övning DD1396 Palinda-1 - Övning 1**
+# **DD1396 Palinda-1 - Övning 1**
 Mathias Grindsäter (grin@kth.se)
 
 ## 💬**Idag**
 * Kort presentation och kort om kursen och övningarna
-* Kommunikation - Slack!
+	* Kommunikation - Slack fortsatt.
+	* Ingen AI - anmäls. Inkluderar skriftliga svar.
+	* Vid frånvaro, var beredd att kunna presentera dubbelt nästa övning.
+	* Kort kurs så vi tar flera men kortare presentationer. 
+	* Inte pushat i tid = Fail. Dubbelkolla alltid.
 * Komma igång...
 * Presentera veckans task
 * RAST
 * Övningar
 
-## 💬**DD1338 Lösningar**
-* Diskutera era lösningar två och två.
+## 💬**DD1396 Lösningar**
+* Diskutera era lösningar i par.
   * Beskriv vad ni har gjort.
   * Vad gjorde ni annorlunda?
 * Presentera!
   * Glöm inte att ta frågor och input!
-  * Kort kurs så vi tar flera men kortare presentationer.
-  * Vid frånvaro, var beredd att kunna presentera dubbelt nästa övning. 
 
 ## **Rast!**
 
