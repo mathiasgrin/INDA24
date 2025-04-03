@@ -1,3 +1,19 @@
+# Palinda-3 Övning
+* Börja med lite frågor (länk i Slack)
+* Presentera Palinda-3
+* Projinda!
+
+
+# Projinda - efter pausen!
+* Någon som saknar grupp?
+* Vill veta vad ni gör.
+* Visar kort issues och hur ni kan arbeta.
+* Kort övning "Github Collaboration Exercise"
+* Skapa ett repo, i er README ska ni i ett stycke beskriva ert projekt. Skicka till mig på Slack och bjud in mig
+som collaborator. Skickar mer info på måndag i Slack!
+* När ni arbetar ihop är det väldigt användbart med VS Live Share! Kom igång med det sen när ni kommit igång.
+Detta kommer ni vilja använda vidare under era studier på KTH :)
+
 
 # 👯‍♀️ GitHub Collaboration Exercise: Silly Website Project
 
@@ -241,3 +257,4 @@ You’ve now completed a full GitHub collaboration workflow:
 
 ---
 
+# Lite tips
