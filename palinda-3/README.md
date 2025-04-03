@@ -1,8 +1,66 @@
 # Palinda-3 Övning
 * Börja med lite frågor (länk i Slack)
 * Presentera Palinda-3
+* Liten sista övning för Palinda, sen, sist men (absolut) inte minst:
 * Projinda!
 
+
+# Kort övning: Data Race
+### **Mutex**
+> Låser en variabel så att olika trådar får tillgång en i taget.
+
+##### **Del 1: Bankkonto**
+> Öppna filen `mutexExercise.go` och fyll i det som saknas.\
+> Använd inget Mutex-objekt (än). Tanken är att minska
+> saldot från 1000 till 0 med 1000 gorutiner.
+> Lös uppgiften själv innan du trycker på `kontroll`.
+
+
+<details>
+<summary>Kontroll</summary>
+<br>
+
+```go
+func decrementBalance(s *bankAccount, wg *sync.WaitGroup) {
+    (*s).balance = (*s).balance - 1
+    wg.Done()
+}
+
+/*
+ * For each Goroutine we want to decrement the balance
+ * by 1.
+ */
+func main() {
+    numOfGoroutines := 1000
+    myAccount := bankAccount{"Handelsbanken", 1000}
+    var w sync.WaitGroup
+    w.Add(numOfGoroutines)
+    for i := 0; i < numOfGoroutines; i++ {
+        go decrementBalance(&myAccount, &w)
+    }
+    w.Wait()
+    fmt.Println(myAccount.balance)
+}
+```
+</details>
+<br>
+
+>Testa att köra programmet några gånger (OBS! Ej i Go Playground). Vad händer och varför?
+
+
+##### **Del 2: Lösning med Mutex**
+> Låt oss nu använda en Mutex.
+> Vi deklarerar en Mutex likt en WorkGroup:
+>```go
+>var mtx sync.Mutex
+>```
+>Vi är främst intresserade av två funktioner, vilka låser och låser upp
+> en variabel.
+> ```go
+> mtx.Lock()
+> // Mellan har vi det vi vill låsa.
+> mtx.Unlock()
+>```
 
 # Projinda - efter pausen!
 * Någon som saknar grupp?
